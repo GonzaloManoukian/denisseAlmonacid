@@ -1,0 +1,73 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.soon {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1D2321;
+    background-image: url(../img/conejo.png);
+    background-repeat: no-repeat;
+    background-size: 52%;
+    background-position-x: 10%;
+    color: white;
+    /* filter:grayscale(.5); */
+}
+
+.soonLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.soonLeft h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 50px;
+    color: #d9d9d9;
+}
+
+.soonLeft p {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #CDA63C;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.soonLeft span {
+    display: block;
+    font-weight: 300;
+    color: #CDA63C;
+    letter-spacing: 5px;
+
+}
+
+.soonRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    overflow: hidden;
+}
+
+.soonRight img {
+    width: 120%;
+}
